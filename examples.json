@@ -1,0 +1,107 @@
+{
+ "逾期但依然活跃": {
+  "scored": {
+   "risk_score": 77.95,
+   "R": 2,
+   "A": 2,
+   "T": 2,
+   "focus_high": true
+  },
+  "review": {
+   "verdict": "keep",
+   "confidence": "high",
+   "evidence": [
+    {
+     "feature": "overdue",
+     "value": "1"
+    },
+    {
+     "feature": "adoption_rate",
+     "value": "0.9643"
+    },
+    {
+     "feature": "active_days_w4",
+     "value": "7"
+    },
+    {
+     "feature": "dau_avg_drop",
+     "value": "0.0"
+    }
+   ],
+   "explanation": "用户已关闭自动续费或取消（overdue=1），这是最强的流失信号，历史逾期用户流失率约 44%，即使采用率高于 0.7 的逾期用户流失率也有 36%。辅助信号偏正面：adoption_rate 为 0.9643，最近一周活跃 7 天，dau_avg_drop 为 0.0，但这不足以抵消逾期风险。",
+   "script": "建议以续费关怀为切入点，了解用户关闭自动续费的原因，并介绍续费流程与会员权益的衔接方式；沟通中不承诺折扣或额外权益，重点确认用户当前使用体验是否稳定。"
+  },
+  "missing": [],
+  "flags": []
+ },
+ "逾期且活跃递减": {
+  "scored": {
+   "risk_score": 90.53,
+   "R": 1,
+   "A": 2,
+   "T": 2,
+   "focus_high": true
+  },
+  "review": {
+   "verdict": "keep",
+   "confidence": "high",
+   "evidence": [
+    {
+     "feature": "overdue",
+     "value": "1"
+    },
+    {
+     "feature": "adoption_rate",
+     "value": "0.4643"
+    },
+    {
+     "feature": "active_days_w4",
+     "value": "1"
+    },
+    {
+     "feature": "dau_avg_drop",
+     "value": "0.4444"
+    }
+   ],
+   "explanation": "用户已关闭自动续费（overdue=1），历史数据显示此类用户流失率达44%，是最强风险信号；采用率0.4643处于中低区间，且最近一周活跃天数降至1天，周平均跌幅0.4444，活跃度呈明显下滑趋势。",
+   "script": "建议主动联系用户了解关闭自动续费的原因，倾听其对产品或服务的顾虑，可介绍平台功能或内容更新以重建使用习惯，但避免承诺折扣或特殊权益。"
+  },
+  "missing": [],
+  "flags": []
+ },
+ "逾期且几乎不用": {
+  "scored": {
+   "risk_score": 98.1,
+   "R": 1,
+   "A": 3,
+   "T": 2,
+   "focus_high": true
+  },
+  "review": {
+   "verdict": "keep",
+   "confidence": "high",
+   "evidence": [
+    {
+     "feature": "overdue",
+     "value": "1"
+    },
+    {
+     "feature": "adoption_rate",
+     "value": "0.0357"
+    },
+    {
+     "feature": "active_days_w4",
+     "value": "0"
+    },
+    {
+     "feature": "dau_avg_drop",
+     "value": "0.3333"
+    }
+   ],
+   "explanation": "用户已关闭自动续费或取消（overdue=1），历史数据显示此类用户流失率约44%，是最强的流失信号；同时近28天采用率仅0.0357，远低于0.3，该区间逾期用户流失率约71%，且最近一周活跃天数为0。",
+   "script": "建议尽快联系用户，了解其关闭自动续费的原因及使用中遇到的问题，倾听反馈并介绍与其使用习惯相关的功能，暂不承诺任何折扣或权益。"
+  },
+  "missing": [],
+  "flags": []
+ }
+}

@@ -1,0 +1,1682 @@
+[
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    7,
+    4,
+    1,
+    6
+   ],
+   "play_minutes": [
+    586.8,
+    323.1,
+    300.7,
+    43.2
+   ],
+   "full_rate_pct": [
+    38.1,
+    6.6,
+    28.8,
+    91.0
+   ],
+   "unique_songs": [
+    45,
+    0,
+    70,
+    57
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.6429,
+   "dau_avg_drop": 0.3929,
+   "secs_avg_drop": 0.4584,
+   "full_rate_avg_drop": 0.2756,
+   "unq_avg_drop": 0.3952,
+   "risk_score": 9.5,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    1,
+    6,
+    6,
+    4
+   ],
+   "play_minutes": [
+    230.8,
+    214.5,
+    116.0,
+    60.3
+   ],
+   "full_rate_pct": [
+    27.7,
+    44.7,
+    95.8,
+    18.0
+   ],
+   "unique_songs": [
+    22,
+    36,
+    68,
+    20
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.6071,
+   "dau_avg_drop": 0.1111,
+   "secs_avg_drop": 0.3367,
+   "full_rate_avg_drop": 0.2707,
+   "unq_avg_drop": 0.2353,
+   "risk_score": 9.45,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    5,
+    1,
+    7,
+    7
+   ],
+   "play_minutes": [
+    0.0,
+    313.7,
+    248.9,
+    0.9
+   ],
+   "full_rate_pct": [
+    95.5,
+    68.3,
+    5.3,
+    30.9
+   ],
+   "unique_songs": [
+    5,
+    44,
+    73,
+    55
+   ],
+   "annual_amount": 2190.0
+  },
+  "expected": {
+   "adoption_rate": 0.7143,
+   "dau_avg_drop": 0.2667,
+   "secs_avg_drop": 0.401,
+   "full_rate_avg_drop": 0.4024,
+   "unq_avg_drop": 0.0822,
+   "risk_score": 6.51,
+   "R": 6,
+   "A": 1,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    4,
+    0,
+    5,
+    0
+   ],
+   "play_minutes": [
+    82.1,
+    206.1,
+    194.7,
+    180.3
+   ],
+   "full_rate_pct": [
+    79.6,
+    52.2,
+    46.1,
+    77.8
+   ],
+   "unique_songs": [
+    18,
+    6,
+    50,
+    55
+   ],
+   "annual_amount": 2190.0
+  },
+  "expected": {
+   "adoption_rate": 0.3214,
+   "dau_avg_drop": 0.6667,
+   "secs_avg_drop": 0.0431,
+   "full_rate_avg_drop": 0.1537,
+   "unq_avg_drop": 0.2222,
+   "risk_score": 14.93,
+   "R": 5,
+   "A": 1,
+   "T": 3,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    3,
+    4,
+    1,
+    3
+   ],
+   "play_minutes": [
+    256.6,
+    0.0,
+    436.9,
+    492.7
+   ],
+   "full_rate_pct": [
+    5.5,
+    54.1,
+    60.8,
+    82.8
+   ],
+   "unique_songs": [
+    17,
+    6,
+    0,
+    78
+   ],
+   "annual_amount": 1812.8
+  },
+  "expected": {
+   "adoption_rate": 0.3929,
+   "dau_avg_drop": 0.25,
+   "secs_avg_drop": 0.3333,
+   "full_rate_avg_drop": 0.0,
+   "unq_avg_drop": 0.549,
+   "risk_score": 14.35,
+   "R": 5,
+   "A": 2,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    6,
+    5,
+    1,
+    2
+   ],
+   "play_minutes": [
+    132.3,
+    330.3,
+    313.6,
+    292.5
+   ],
+   "full_rate_pct": [
+    63.0,
+    91.0,
+    96.3,
+    58.5
+   ],
+   "unique_songs": [
+    11,
+    53,
+    28,
+    29
+   ],
+   "annual_amount": 1569.5
+  },
+  "expected": {
+   "adoption_rate": 0.5,
+   "dau_avg_drop": 0.3222,
+   "secs_avg_drop": 0.0393,
+   "full_rate_avg_drop": 0.1308,
+   "unq_avg_drop": 0.1572,
+   "risk_score": 10.97,
+   "R": 5,
+   "A": 2,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    4,
+    7,
+    1,
+    7
+   ],
+   "play_minutes": [
+    599.6,
+    310.7,
+    0.0,
+    59.3
+   ],
+   "full_rate_pct": [
+    3.9,
+    97.6,
+    55.1,
+    7.2
+   ],
+   "unique_songs": [
+    62,
+    53,
+    8,
+    59
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.6786,
+   "dau_avg_drop": 0.2857,
+   "secs_avg_drop": 0.4939,
+   "full_rate_avg_drop": 0.4349,
+   "unq_avg_drop": 0.3314,
+   "risk_score": 8.18,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    0,
+    0,
+    3,
+    7
+   ],
+   "play_minutes": [
+    443.9,
+    109.5,
+    417.6,
+    316.0
+   ],
+   "full_rate_pct": [
+    57.3,
+    77.0,
+    39.3,
+    95.9
+   ],
+   "unique_songs": [
+    23,
+    0,
+    54,
+    35
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.3571,
+   "dau_avg_drop": 0.0,
+   "secs_avg_drop": 0.3322,
+   "full_rate_avg_drop": 0.1632,
+   "unq_avg_drop": 0.4506,
+   "risk_score": 15.35,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    5,
+    2,
+    1,
+    6
+   ],
+   "play_minutes": [
+    357.4,
+    451.2,
+    37.0,
+    446.9
+   ],
+   "full_rate_pct": [
+    71.2,
+    65.6,
+    14.7,
+    97.3
+   ],
+   "unique_songs": [
+    0,
+    74,
+    45,
+    56
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.5,
+   "dau_avg_drop": 0.3667,
+   "secs_avg_drop": 0.306,
+   "full_rate_avg_drop": 0.2849,
+   "unq_avg_drop": 0.1306,
+   "risk_score": 10.84,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    3,
+    7,
+    0,
+    0
+   ],
+   "play_minutes": [
+    269.8,
+    233.8,
+    397.1,
+    6.3
+   ],
+   "full_rate_pct": [
+    49.8,
+    77.5,
+    56.5,
+    30.4
+   ],
+   "unique_songs": [
+    34,
+    9,
+    75,
+    19
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.3571,
+   "dau_avg_drop": 0.3333,
+   "secs_avg_drop": 0.3725,
+   "full_rate_avg_drop": 0.2443,
+   "unq_avg_drop": 0.494,
+   "risk_score": 15.35,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    4,
+    1,
+    0,
+    3
+   ],
+   "play_minutes": [
+    325.6,
+    274.6,
+    0.0,
+    34.4
+   ],
+   "full_rate_pct": [
+    56.2,
+    89.4,
+    59.8,
+    33.7
+   ],
+   "unique_songs": [
+    67,
+    23,
+    68,
+    42
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.2857,
+   "dau_avg_drop": 0.5833,
+   "secs_avg_drop": 0.3855,
+   "full_rate_avg_drop": 0.2559,
+   "unq_avg_drop": 0.3464,
+   "risk_score": 16.55,
+   "R": 4,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 1,
+   "active_days": [
+    4,
+    0,
+    4,
+    2
+   ],
+   "play_minutes": [
+    370.2,
+    253.8,
+    379.5,
+    542.5
+   ],
+   "full_rate_pct": [
+    83.7,
+    41.4,
+    93.1,
+    29.5
+   ],
+   "unique_songs": [
+    35,
+    64,
+    0,
+    0
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.3571,
+   "dau_avg_drop": 0.5,
+   "secs_avg_drop": 0.1048,
+   "full_rate_avg_drop": 0.3962,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 91.55,
+   "R": 1,
+   "A": 4,
+   "T": 3,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 1,
+   "active_days": [
+    2,
+    0,
+    5,
+    4
+   ],
+   "play_minutes": [
+    382.5,
+    577.6,
+    578.2,
+    234.7
+   ],
+   "full_rate_pct": [
+    1.2,
+    6.6,
+    85.3,
+    62.9
+   ],
+   "unique_songs": [
+    29,
+    42,
+    0,
+    46
+   ],
+   "annual_amount": 1812.8
+  },
+  "expected": {
+   "adoption_rate": 0.3929,
+   "dau_avg_drop": 0.4,
+   "secs_avg_drop": 0.198,
+   "full_rate_avg_drop": 0.0875,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 90.82,
+   "R": 1,
+   "A": 2,
+   "T": 2,
+   "focus_high": true
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    5,
+    6,
+    4,
+    4
+   ],
+   "play_minutes": [
+    499.7,
+    142.7,
+    398.8,
+    0.0
+   ],
+   "full_rate_pct": [
+    21.2,
+    93.5,
+    31.6,
+    89.3
+   ],
+   "unique_songs": [
+    0,
+    22,
+    0,
+    65
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.6786,
+   "dau_avg_drop": 0.1111,
+   "secs_avg_drop": 0.5715,
+   "full_rate_avg_drop": 0.2207,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 8.19,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 1,
+   "active_days": [
+    4,
+    1,
+    1,
+    6
+   ],
+   "play_minutes": [
+    446.2,
+    402.0,
+    152.7,
+    545.8
+   ],
+   "full_rate_pct": [
+    46.7,
+    89.9,
+    29.5,
+    61.1
+   ],
+   "unique_songs": [
+    7,
+    18,
+    3,
+    15
+   ],
+   "annual_amount": 1569.5
+  },
+  "expected": {
+   "adoption_rate": 0.4286,
+   "dau_avg_drop": 0.25,
+   "secs_avg_drop": 0.2397,
+   "full_rate_avg_drop": 0.224,
+   "unq_avg_drop": 0.2778,
+   "risk_score": 89.81,
+   "R": 1,
+   "A": 2,
+   "T": 2,
+   "focus_high": true
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    4,
+    7,
+    7,
+    4
+   ],
+   "play_minutes": [
+    168.4,
+    526.6,
+    249.7,
+    0.0
+   ],
+   "full_rate_pct": [
+    21.1,
+    64.0,
+    99.6,
+    8.2
+   ],
+   "unique_songs": [
+    62,
+    56,
+    26,
+    31
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.7857,
+   "dau_avg_drop": 0.1429,
+   "secs_avg_drop": 0.5086,
+   "full_rate_avg_drop": 0.3059,
+   "unq_avg_drop": 0.2108,
+   "risk_score": 5.41,
+   "R": 6,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    3,
+    0,
+    6,
+    3
+   ],
+   "play_minutes": [
+    289.2,
+    468.3,
+    437.9,
+    469.2
+   ],
+   "full_rate_pct": [
+    0.2,
+    52.6,
+    2.3,
+    29.6
+   ],
+   "unique_songs": [
+    0,
+    45,
+    14,
+    0
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.4286,
+   "dau_avg_drop": 0.5,
+   "secs_avg_drop": 0.0216,
+   "full_rate_avg_drop": 0.3188,
+   "unq_avg_drop": 0.563,
+   "risk_score": 14.17,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    3,
+    6,
+    7,
+    6
+   ],
+   "play_minutes": [
+    443.6,
+    538.8,
+    527.7,
+    598.9
+   ],
+   "full_rate_pct": [
+    98.7,
+    93.2,
+    22.5,
+    11.7
+   ],
+   "unique_songs": [
+    18,
+    73,
+    78,
+    63
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.7857,
+   "dau_avg_drop": 0.0476,
+   "secs_avg_drop": 0.0069,
+   "full_rate_avg_drop": 0.4314,
+   "unq_avg_drop": 0.0641,
+   "risk_score": 4.97,
+   "R": 6,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 1,
+   "active_days": [
+    0,
+    3,
+    7,
+    4
+   ],
+   "play_minutes": [
+    496.8,
+    0.0,
+    371.2,
+    151.6
+   ],
+   "full_rate_pct": [
+    95.0,
+    53.0,
+    33.7,
+    94.1
+   ],
+   "unique_songs": [
+    0,
+    8,
+    78,
+    17
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.5,
+   "dau_avg_drop": 0.1429,
+   "secs_avg_drop": 0.5305,
+   "full_rate_avg_drop": 0.2688,
+   "unq_avg_drop": 0.2607,
+   "risk_score": 88.56,
+   "R": 1,
+   "A": 4,
+   "T": 3,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    0,
+    0,
+    3,
+    3
+   ],
+   "play_minutes": [
+    470.7,
+    0.0,
+    74.6,
+    0.0
+   ],
+   "full_rate_pct": [
+    23.4,
+    79.9,
+    68.6,
+    69.9
+   ],
+   "unique_songs": [
+    0,
+    0,
+    0,
+    72
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.2143,
+   "dau_avg_drop": 0.0,
+   "secs_avg_drop": 0.6667,
+   "full_rate_avg_drop": 0.0471,
+   "unq_avg_drop": 0.0,
+   "risk_score": 16.03,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    2,
+    0,
+    1,
+    4
+   ],
+   "play_minutes": [
+    221.1,
+    279.9,
+    163.3,
+    0.0
+   ],
+   "full_rate_pct": [
+    60.4,
+    99.0,
+    14.9,
+    49.5
+   ],
+   "unique_songs": [
+    12,
+    0,
+    0,
+    10
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.25,
+   "dau_avg_drop": 0.3333,
+   "secs_avg_drop": 0.4722,
+   "full_rate_avg_drop": 0.2832,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 16.93,
+   "R": 4,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    2,
+    7,
+    1,
+    5
+   ],
+   "play_minutes": [
+    285.9,
+    23.6,
+    190.3,
+    214.1
+   ],
+   "full_rate_pct": [
+    86.4,
+    37.6,
+    11.7,
+    60.7
+   ],
+   "unique_songs": [
+    55,
+    11,
+    17,
+    42
+   ],
+   "annual_amount": 1569.5
+  },
+  "expected": {
+   "adoption_rate": 0.5357,
+   "dau_avg_drop": 0.2857,
+   "secs_avg_drop": 0.3058,
+   "full_rate_avg_drop": 0.4179,
+   "unq_avg_drop": 0.2667,
+   "risk_score": 10.78,
+   "R": 5,
+   "A": 2,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    1,
+    0,
+    1,
+    4
+   ],
+   "play_minutes": [
+    0.0,
+    228.1,
+    322.1,
+    494.8
+   ],
+   "full_rate_pct": [
+    56.1,
+    99.3,
+    48.9,
+    45.0
+   ],
+   "unique_songs": [
+    28,
+    52,
+    3,
+    57
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.2143,
+   "dau_avg_drop": 0.3333,
+   "secs_avg_drop": 0.0,
+   "full_rate_avg_drop": 0.1958,
+   "unq_avg_drop": 0.3141,
+   "risk_score": 17.57,
+   "R": 4,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    4,
+    5,
+    4,
+    4
+   ],
+   "play_minutes": [
+    74.3,
+    163.4,
+    3.8,
+    16.8
+   ],
+   "full_rate_pct": [
+    10.3,
+    65.9,
+    39.3,
+    16.2
+   ],
+   "unique_songs": [
+    0,
+    45,
+    75,
+    75
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.6071,
+   "dau_avg_drop": 0.0667,
+   "secs_avg_drop": 0.3256,
+   "full_rate_avg_drop": 0.3305,
+   "unq_avg_drop": 0.0,
+   "risk_score": 8.01,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    6,
+    1,
+    4,
+    6
+   ],
+   "play_minutes": [
+    78.9,
+    473.9,
+    515.9,
+    182.7
+   ],
+   "full_rate_pct": [
+    69.9,
+    85.7,
+    45.0,
+    51.9
+   ],
+   "unique_songs": [
+    65,
+    60,
+    0,
+    0
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.6071,
+   "dau_avg_drop": 0.2778,
+   "secs_avg_drop": 0.2153,
+   "full_rate_avg_drop": 0.1583,
+   "unq_avg_drop": 0.359,
+   "risk_score": 9.77,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    6,
+    7,
+    0,
+    1
+   ],
+   "play_minutes": [
+    502.6,
+    98.4,
+    8.8,
+    304.0
+   ],
+   "full_rate_pct": [
+    8.4,
+    54.8,
+    79.8,
+    91.0
+   ],
+   "unique_songs": [
+    36,
+    67,
+    20,
+    0
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.5,
+   "dau_avg_drop": 0.3333,
+   "secs_avg_drop": 0.5716,
+   "full_rate_avg_drop": 0.0,
+   "unq_avg_drop": 0.5672,
+   "risk_score": 12.72,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 1,
+   "active_days": [
+    5,
+    7,
+    3,
+    1
+   ],
+   "play_minutes": [
+    498.0,
+    0.0,
+    163.5,
+    451.4
+   ],
+   "full_rate_pct": [
+    98.1,
+    65.1,
+    21.6,
+    46.9
+   ],
+   "unique_songs": [
+    32,
+    0,
+    79,
+    58
+   ],
+   "annual_amount": 1812.8
+  },
+  "expected": {
+   "adoption_rate": 0.5714,
+   "dau_avg_drop": 0.4127,
+   "secs_avg_drop": 0.3333,
+   "full_rate_avg_drop": 0.3349,
+   "unq_avg_drop": 0.4219,
+   "risk_score": 87.79,
+   "R": 1,
+   "A": 2,
+   "T": 2,
+   "focus_high": true
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    4,
+    1,
+    5,
+    7
+   ],
+   "play_minutes": [
+    0.4,
+    0.0,
+    339.6,
+    109.2
+   ],
+   "full_rate_pct": [
+    24.7,
+    88.5,
+    69.7,
+    16.2
+   ],
+   "unique_songs": [
+    0,
+    36,
+    0,
+    27
+   ],
+   "annual_amount": 1812.8
+  },
+  "expected": {
+   "adoption_rate": 0.6071,
+   "dau_avg_drop": 0.25,
+   "secs_avg_drop": 0.5595,
+   "full_rate_avg_drop": 0.3267,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 9.65,
+   "R": 5,
+   "A": 2,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    7,
+    6,
+    3,
+    1
+   ],
+   "play_minutes": [
+    251.3,
+    276.0,
+    453.9,
+    183.3
+   ],
+   "full_rate_pct": [
+    40.0,
+    91.6,
+    82.1,
+    23.0
+   ],
+   "unique_songs": [
+    3,
+    34,
+    64,
+    0
+   ],
+   "annual_amount": 1569.5
+  },
+  "expected": {
+   "adoption_rate": 0.6071,
+   "dau_avg_drop": 0.4365,
+   "secs_avg_drop": 0.1987,
+   "full_rate_avg_drop": 0.2745,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 9.93,
+   "R": 5,
+   "A": 2,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    7,
+    2,
+    0,
+    7
+   ],
+   "play_minutes": [
+    0.0,
+    0.0,
+    158.9,
+    194.3
+   ],
+   "full_rate_pct": [
+    63.4,
+    10.8,
+    38.6,
+    66.8
+   ],
+   "unique_songs": [
+    79,
+    67,
+    0,
+    9
+   ],
+   "annual_amount": 2190.0
+  },
+  "expected": {
+   "adoption_rate": 0.5714,
+   "dau_avg_drop": 0.5714,
+   "secs_avg_drop": 0.0,
+   "full_rate_avg_drop": 0.2766,
+   "unq_avg_drop": 0.384,
+   "risk_score": 10.63,
+   "R": 5,
+   "A": 1,
+   "T": 3,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    2,
+    6,
+    0,
+    0
+   ],
+   "play_minutes": [
+    267.2,
+    0.0,
+    323.2,
+    313.3
+   ],
+   "full_rate_pct": [
+    49.5,
+    11.2,
+    72.3,
+    94.2
+   ],
+   "unique_songs": [
+    25,
+    44,
+    61,
+    49
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.2857,
+   "dau_avg_drop": 0.3333,
+   "secs_avg_drop": 0.3435,
+   "full_rate_avg_drop": 0.2579,
+   "unq_avg_drop": 0.0656,
+   "risk_score": 15.18,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    3,
+    1,
+    5,
+    3
+   ],
+   "play_minutes": [
+    0.0,
+    488.4,
+    379.9,
+    198.8
+   ],
+   "full_rate_pct": [
+    24.3,
+    84.7,
+    91.2,
+    57.0
+   ],
+   "unique_songs": [
+    37,
+    31,
+    16,
+    16
+   ],
+   "annual_amount": 1812.8
+  },
+  "expected": {
+   "adoption_rate": 0.4286,
+   "dau_avg_drop": 0.3556,
+   "secs_avg_drop": 0.233,
+   "full_rate_avg_drop": 0.125,
+   "unq_avg_drop": 0.2153,
+   "risk_score": 12.71,
+   "R": 5,
+   "A": 2,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    7,
+    5,
+    3,
+    2
+   ],
+   "play_minutes": [
+    141.4,
+    529.3,
+    29.1,
+    438.1
+   ],
+   "full_rate_pct": [
+    81.9,
+    43.5,
+    71.7,
+    60.8
+   ],
+   "unique_songs": [
+    0,
+    21,
+    68,
+    6
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.6071,
+   "dau_avg_drop": 0.3397,
+   "secs_avg_drop": 0.315,
+   "full_rate_avg_drop": 0.207,
+   "unq_avg_drop": 0.3039,
+   "risk_score": 9.78,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    7,
+    3,
+    0,
+    6
+   ],
+   "play_minutes": [
+    561.1,
+    273.3,
+    140.3,
+    0.0
+   ],
+   "full_rate_pct": [
+    81.7,
+    76.4,
+    69.1,
+    12.8
+   ],
+   "unique_songs": [
+    49,
+    0,
+    55,
+    71
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.5714,
+   "dau_avg_drop": 0.5238,
+   "secs_avg_drop": 0.6665,
+   "full_rate_avg_drop": 0.3251,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 10.38,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    2,
+    1,
+    3,
+    3
+   ],
+   "play_minutes": [
+    252.2,
+    457.5,
+    326.9,
+    495.3
+   ],
+   "full_rate_pct": [
+    68.4,
+    28.5,
+    47.2,
+    38.1
+   ],
+   "unique_songs": [
+    8,
+    5,
+    70,
+    61
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.3214,
+   "dau_avg_drop": 0.1667,
+   "secs_avg_drop": 0.0952,
+   "full_rate_avg_drop": 0.2587,
+   "unq_avg_drop": 0.1679,
+   "risk_score": 14.94,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 1,
+   "active_days": [
+    0,
+    5,
+    0,
+    5
+   ],
+   "play_minutes": [
+    73.2,
+    323.7,
+    169.3,
+    366.2
+   ],
+   "full_rate_pct": [
+    26.0,
+    92.4,
+    58.2,
+    64.5
+   ],
+   "unique_songs": [
+    16,
+    66,
+    8,
+    30
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.3571,
+   "dau_avg_drop": 0.3333,
+   "secs_avg_drop": 0.159,
+   "full_rate_avg_drop": 0.1234,
+   "unq_avg_drop": 0.2929,
+   "risk_score": 91.35,
+   "R": 1,
+   "A": 4,
+   "T": 3,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    6,
+    3,
+    0,
+    4
+   ],
+   "play_minutes": [
+    510.6,
+    429.5,
+    210.8,
+    399.6
+   ],
+   "full_rate_pct": [
+    38.7,
+    59.7,
+    46.7,
+    91.8
+   ],
+   "unique_songs": [
+    0,
+    47,
+    39,
+    53
+   ],
+   "annual_amount": 1204.5
+  },
+  "expected": {
+   "adoption_rate": 0.4643,
+   "dau_avg_drop": 0.5,
+   "secs_avg_drop": 0.2227,
+   "full_rate_avg_drop": 0.0726,
+   "unq_avg_drop": 0.0567,
+   "risk_score": 11.2,
+   "R": 5,
+   "A": 3,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    5,
+    3,
+    5,
+    5
+   ],
+   "play_minutes": [
+    469.9,
+    35.7,
+    0.0,
+    222.9
+   ],
+   "full_rate_pct": [
+    49.1,
+    55.3,
+    17.2,
+    33.7
+   ],
+   "unique_songs": [
+    43,
+    5,
+    3,
+    70
+   ],
+   "annual_amount": 0.0
+  },
+  "expected": {
+   "adoption_rate": 0.6429,
+   "dau_avg_drop": 0.1333,
+   "secs_avg_drop": 0.6413,
+   "full_rate_avg_drop": 0.2297,
+   "unq_avg_drop": 0.4279,
+   "risk_score": 9.25,
+   "R": 5,
+   "A": 4,
+   "T": 4,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    2,
+    1,
+    6,
+    2
+   ],
+   "play_minutes": [
+    306.8,
+    180.6,
+    162.2,
+    396.9
+   ],
+   "full_rate_pct": [
+    40.2,
+    43.6,
+    24.0,
+    77.0
+   ],
+   "unique_songs": [
+    39,
+    0,
+    11,
+    4
+   ],
+   "annual_amount": 2190.0
+  },
+  "expected": {
+   "adoption_rate": 0.3929,
+   "dau_avg_drop": 0.3889,
+   "secs_avg_drop": 0.1711,
+   "full_rate_avg_drop": 0.1498,
+   "unq_avg_drop": 0.5455,
+   "risk_score": 14.63,
+   "R": 5,
+   "A": 1,
+   "T": 3,
+   "focus_high": false
+  }
+ },
+ {
+  "input": {
+   "overdue": 0,
+   "active_days": [
+    5,
+    1,
+    7,
+    5
+   ],
+   "play_minutes": [
+    101.0,
+    182.3,
+    105.6,
+    200.2
+   ],
+   "full_rate_pct": [
+    25.3,
+    39.0,
+    4.8,
+    11.9
+   ],
+   "unique_songs": [
+    7,
+    12,
+    0,
+    30
+   ],
+   "annual_amount": 2190.0
+  },
+  "expected": {
+   "adoption_rate": 0.6429,
+   "dau_avg_drop": 0.3619,
+   "secs_avg_drop": 0.1402,
+   "full_rate_avg_drop": 0.2923,
+   "unq_avg_drop": 0.3333,
+   "risk_score": 8.92,
+   "R": 5,
+   "A": 1,
+   "T": 3,
+   "focus_high": false
+  }
+ }
+]
