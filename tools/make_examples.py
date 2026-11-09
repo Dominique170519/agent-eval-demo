@@ -1,5 +1,5 @@
 """用冻结的 Reviewer 为 6 个虚构用户预先生成示例输出（examples.json），供额度用完时降级展示。
-用法：DASHSCOPE_API_KEY=... python tools/make_examples.py（或从研究项目的 .env 读取）
+用法：DASHSCOPE_API_KEY=... python tools/make_examples.py
 """
 import json
 import os
@@ -11,10 +11,7 @@ from core.personas import PERSONAS  # noqa: E402
 
 key = os.environ.get("DASHSCOPE_API_KEY")
 if not key:
-    env = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "..", "agent-eval", ".env")
-    for line in open(env, encoding="utf-8").read().splitlines():
-        if line.startswith("DASHSCOPE_API_KEY="):
-            key = line.split("=", 1)[1].strip()
+    sys.exit("请先设置环境变量 DASHSCOPE_API_KEY")
 out = {}
 for name, inp in PERSONAS.items():
     feats = F.compute_features(inp)
