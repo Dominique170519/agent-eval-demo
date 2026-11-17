@@ -1,4 +1,4 @@
 streamlit>=1.40
 openai>=1.40
 pydantic>=2.5
-langfuse>=3.0
+langfuse==3.7.0

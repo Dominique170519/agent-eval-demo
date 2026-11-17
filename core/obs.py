@@ -15,7 +15,10 @@ _lock = threading.Lock()
 class Obs:
     def __init__(self, public_key=None, secret_key=None, host=None):
         self.lf = None
-        self.status = "local"  # local：未配置；connected：已通过认证；auth_failed：密钥或区域不对
+        self.status = "local"  # local：未配置；connected：已通过认证；auth_failed：认证失败
+        self.error = ""  # 失败原因（不含密钥），用于在页面上提示
+        clean = lambda v: (str(v).strip().strip("\"'").strip() if v else v)  # noqa: E731  去掉复制时多出的空格、换行和引号
+        public_key, secret_key, host = clean(public_key), clean(secret_key), clean(host)
         if public_key and secret_key:
             try:
                 from langfuse import Langfuse
@@ -23,14 +26,18 @@ class Obs:
                 lf = Langfuse(public_key=public_key, secret_key=secret_key, host=host or "https://cloud.langfuse.com", timeout=10)
                 try:
                     ok = bool(lf.auth_check())
-                except Exception:
+                    if not ok:
+                        self.error = f"认证未通过：密钥与区域不匹配（当前 host：{host or 'https://cloud.langfuse.com'}）"
+                except Exception as e:
                     ok = False
+                    self.error = f"{type(e).__name__}: {str(e)[:100]}"
                 if ok:
                     self.lf, self.status = lf, "connected"
                 else:
                     self.status = "auth_failed"
-            except Exception:
+            except Exception as e:
                 self.status = "auth_failed"
+                self.error = f"{type(e).__name__}: {str(e)[:100]}"
 
     @property
     def enabled(self):
