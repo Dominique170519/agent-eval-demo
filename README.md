@@ -2,6 +2,8 @@
 
 一个个人项目的演示：用 Kaggle「WSDM - KKBox's Churn Prediction Challenge」的真实订阅数据，复刻"指标加权 → 风险分桶 × 金额分桶 → 优先级分层"的客户续约风险研判链路，用大模型为高风险用户生成给销售的风险说明，并补上系统化的评测、监控和回归。
 
+**在线体验**：https://agent-eval-demo-enpscc4q7yw7xzaeszp5sa.streamlit.app/
+
 > 教学演示：页面上的用户均为虚构，说明由大模型生成，不构成任何业务建议。
 > 竞赛数据条款不允许再分发数据，所以本仓库**没有任何 KKBox 原始数据和用户 ID**，只有汇总参数和合成样例。
 
