@@ -41,7 +41,9 @@ st.caption("复刻“指标加权 → 风险分桶 × 金额分桶 → 优先级
 with st.sidebar:
     quota_slot = st.empty()  # 先占位，等本次请求处理完再显示最新剩余次数
     st.caption(f"每位访客最多 {SESSION_CAP} 次；额度用完后自动降级为规则结果和预先生成的示例。")
-    st.caption("监控：Langfuse 已连接" if obs.enabled else "监控：仅本地日志（Langfuse 未配置）")
+    st.caption({"connected": "监控：Langfuse 已连接并通过认证",
+                "auth_failed": "监控：Langfuse 认证失败（请检查密钥和 LANGFUSE_HOST 区域），目前仅记录本地日志",
+                "local": "监控：仅本地日志（未配置 Langfuse）"}[obs.status])
 
 tab1, tab2 = st.tabs(["体验", "评测结果与监控"])
 

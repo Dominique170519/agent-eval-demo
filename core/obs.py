@@ -15,13 +15,22 @@ _lock = threading.Lock()
 class Obs:
     def __init__(self, public_key=None, secret_key=None, host=None):
         self.lf = None
+        self.status = "local"  # local：未配置；connected：已通过认证；auth_failed：密钥或区域不对
         if public_key and secret_key:
             try:
                 from langfuse import Langfuse
 
-                self.lf = Langfuse(public_key=public_key, secret_key=secret_key, host=host or "https://cloud.langfuse.com", timeout=10)
+                lf = Langfuse(public_key=public_key, secret_key=secret_key, host=host or "https://cloud.langfuse.com", timeout=10)
+                try:
+                    ok = bool(lf.auth_check())
+                except Exception:
+                    ok = False
+                if ok:
+                    self.lf, self.status = lf, "connected"
+                else:
+                    self.status = "auth_failed"
             except Exception:
-                self.lf = None
+                self.status = "auth_failed"
 
     @property
     def enabled(self):
